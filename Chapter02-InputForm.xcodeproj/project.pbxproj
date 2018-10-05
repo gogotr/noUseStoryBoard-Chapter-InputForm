@@ -12,6 +12,7 @@
 		CB4F10C421639E1A00AADADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4F10C221639E1A00AADADA /* Main.storyboard */; };
 		CB4F10C621639E1C00AADADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4F10C521639E1C00AADADA /* Assets.xcassets */; };
 		CB4F10C921639E1C00AADADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4F10C721639E1C00AADADA /* LaunchScreen.storyboard */; };
+		CB4F10D12163ABE700AADADA /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4F10D02163ABE700AADADA /* ReadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CB4F10C521639E1C00AADADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB4F10C821639E1C00AADADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB4F10CA21639E1C00AADADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB4F10D02163ABE700AADADA /* ReadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				CB4F10C521639E1C00AADADA /* Assets.xcassets */,
 				CB4F10C721639E1C00AADADA /* LaunchScreen.storyboard */,
 				CB4F10CA21639E1C00AADADA /* Info.plist */,
+				CB4F10D02163ABE700AADADA /* ReadViewController.swift */,
 			);
 			path = "Chapter02-InputForm";
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB4F10C121639E1A00AADADA /* ViewController.swift in Sources */,
+				CB4F10D12163ABE700AADADA /* ReadViewController.swift in Sources */,
 				CB4F10BF21639E1A00AADADA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
